@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load dataset
-file_path = "C:\\Sales Report\\EXECUTIVE RANKING.xlsx"
+file_path = "EXECUTIVE RANKING.xlsx"
 df = pd.read_excel(file_path)
 
 # Clean column names
