@@ -81,8 +81,3 @@ for metric_name, col in performance_metrics.items():
     st.plotly_chart(fig)
 
 st.write("🎯 Use the sidebar filters to compare performance metrics (displayed as percentages) along with the Number of Branches (NOB) across employees!")
-        text_auto=True
-    )
-    st.plotly_chart(fig)
-
-st.write("🎯 Select different filters in the sidebar to compare rankings across employees!")
